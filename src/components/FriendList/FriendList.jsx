@@ -19,8 +19,8 @@ export const FriendList = ({friends}) => {
 
                 <li className={css.item} key={friend.id}>
                 <span className={css.friend} style={friendStyles} ></span>
-                <img class="avatar" src={friend.avatar} alt={friend.name} width="48" />
-                <p class={friend.name}>{friend.name}</p>
+                <img  src={friend.avatar} alt={friend.name} width="48" />
+                <p >{friend.name}</p>
               </li>
             )}
         )} 
