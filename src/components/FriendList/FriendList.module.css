@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans";
+ }
+.friend{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.friendList{
+    width: 300px;
+    display: block;
+    list-style: none;
+    
+}
+.item{
+    display: flex;
+    gap: 20px;
+    border: 2px solid #4b4848;
+    padding: 20px;
+}
